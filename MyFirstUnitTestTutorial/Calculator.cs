@@ -6,15 +6,11 @@ namespace MyFirstUnitTestTutorial
 {
     public class Calculator
     {
-        public int Result { get; set; } = 0;
-        public Calculator()
-        {
-               
-        }
+        public int Result { get; set; }
 
         public void Add(int x, int y)
         {
-            Result += x + y;
+            this.Result = x + y;
         }
     }
 }
